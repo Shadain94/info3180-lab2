@@ -1,3 +1,39 @@
 body {
     padding-top: 50px;
 }
+
+#photo{
+    
+    margin-top: 30px;
+}
+
+#info{
+    position:absolute;
+    margin-left:400px;
+    border: 2px solid grey;
+    margin-top: -600px;
+    width: 350px;
+    height: 400px;
+    background-color:#e6e6e6;
+}
+
+
+#name{
+    
+    
+    background-color: #e6e6e6;
+    height: 30px;
+    width: 347px;
+    border-bottom: 1px solid;
+}
+#time{
+    border-bottom: 1px solid;
+    
+}
+#inner{
+    border-bottom: 1px solid;
+    
+}
+
+
+

@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block main%}
+<div id="photo">
+ <img src="{{ url_for("static", filename='images/pic.jpg')}}"></img>   
+</div>
+
+  <div id="info">
+      
+  <p id="name"> Shadain Gooden</p>
+  <br>
+  
+  <p id="time">
+      {{now}}
+  </p>
+  
+ <div id="inner">
+      <p>
+          Username: Shadain94
+      </p>
+      <p>
+          Id: 620073652
+      </p>
+      <p>
+          Age: 22
+      </p>
+      <p>
+          Gender: Male
+      </p>
+      
+    </div>  
+  <br>
+  <p> I am a legendary Jedi</p>
+  
+  </div>
+  
+
+
+{% endblock %}
